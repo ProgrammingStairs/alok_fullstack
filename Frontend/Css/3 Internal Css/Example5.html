@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* element selector */
+        span{
+            color:red;
+        }
+        /* descendant selector */
+        p span{
+            color:blue;
+        }
+        /* descendant selector */
+        div p span{
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <span>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, facilis!
+    </span>
+    <p>
+        <span>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, facilis!
+        </span>
+    </p>
+    <div>
+        <p>
+            <span>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, facilis!
+            </span>
+        </p>
+    </div>
+</body>
+</html>
