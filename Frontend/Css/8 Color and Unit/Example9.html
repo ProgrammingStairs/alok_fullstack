@@ -1,0 +1,43 @@
+<!-- 
+    Units in CSS : 
+
+    3. vh = viewport height and vw = viewport width
+    device width = 1000px
+    1vw = 1% of device width
+        = 1/100 * 1000
+        = 10px
+
+    10vw = 10 x 10 = 100vw
+
+    device height = 1000px
+    1vh = 1% of device height
+        = 1/100 * 1000
+        = 10px
+
+    6vh = 6 x 10 = 60vh
+
+--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 50vw;
+            border-style: solid;
+            height: 500px;
+        }
+        #inner{
+            height: 80%;
+            border-style: solid;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="inner"></div>
+    </div>    
+</body>
+</html>

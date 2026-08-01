@@ -1,0 +1,67 @@
+<!-- 
+    HSL = Hue Saturation Lightness
+    Hue => degree => 0 to 360 degree
+    Saturation => %
+                 0%       25%        50%         75%          100% 
+                 -------------------------------------------------
+                 Lightness                                   Darkness
+                 
+    Lightness => %
+                 0%       25%        50%         75%          100% 
+                 -------------------------------------------------
+                Darkness                                    Lightness
+    
+    color : hsl(200,50%,25%)
+    -----------------------------------
+    HSLA = Hue Saturation Lightness Alpha
+    Hue => degree => 0 to 360 degree
+    Saturation => %
+                 0%       25%        50%         75%          100% 
+                 -------------------------------------------------
+                 Lightness                                   Darkness
+                 
+    Lightness => %
+                 0%       25%        50%         75%          100% 
+                 -------------------------------------------------
+                Darkness                                    Lightness
+    
+    color : hsl(200,50%,25%,0.3)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 300px;
+            width: 180px;
+            float: left;
+        }
+        #demo1{
+            background-color: hsl(200,0%,20%); 
+        }
+        #demo2{
+            background-color:  hsl(200,25%,20%);
+        }
+        #demo3{
+            background-color:  hsl(200,50%,20%);
+        }
+        #demo4{
+            background-color:  hsl(200,75%,20%);
+        }
+        #demo5{
+            background-color: hsl(200,100%,20%);
+        }
+
+</style>
+</head>
+<body>
+    <div id="demo1"></div>
+    <div id="demo2"></div>
+    <div id="demo3"></div>
+    <div id="demo4"></div>
+    <div id="demo5"></div>
+</body>
+</html>

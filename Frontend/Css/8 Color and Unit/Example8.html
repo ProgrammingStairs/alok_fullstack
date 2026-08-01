@@ -1,0 +1,41 @@
+<!-- 
+    Units in CSS : 
+
+    2. % = percentage
+
+        parent div width = 80%
+        child div width = 50% 
+        
+        if we modify parent width,
+
+        parent div width = 40%
+        child div width =  50%
+--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            height:300px;
+            /* width: 80%; */
+            width:40%;
+            border-style: solid;
+            padding: 20px;
+        }
+        #child{
+            height:300px;
+            width: 50%;
+            border-style: solid;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="child"></div>
+    </div>
+</body>
+</html>

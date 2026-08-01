@@ -1,0 +1,52 @@
+<!-- 
+    Units in CSS : 
+
+    4. em (empherical unit) 
+       by default 1em = 16px
+       2em = 32px
+       2.5em = 40px 
+
+       but with respect to parent : 
+       parent div size = 20px
+       then in child : 1em = 20px 
+       2em = 40px 
+       2.5 em = 50px 
+
+    and rem (root empherical unit)
+       by default 1rem = 16px
+       2rem = 32px
+       2.5rem = 40px 
+
+       but with respect to parent(root element) : 
+       html size = 20px
+       then in child : 1rem = 20px 
+       2 rem = 40px 
+       2.5 rem = 50px 
+
+--> 
+<!DOCTYPE html>
+<html style="font-size: 25px;" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            font-size: 20px;
+        }
+        p{
+            font-size: 2em;
+        }
+        span{
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, porro facilis molestias quaerat impedit fugit! Ducimus sapiente tenetur dolorum atque cum, unde nulla obcaecati consequuntur inventore perspiciatis iusto illo eligendi?</p>
+        <br><br>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, ipsa dolorem. Harum, minus quas ullam voluptatum quibusdam nostrum magnam, numquam, necessitatibus et nisi asperiores blanditiis! Rem quidem cupiditate nisi libero?</span>
+    </div>    
+</body>
+</html>
