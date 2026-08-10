@@ -9,6 +9,10 @@
 }
 #topbar{
     height: 70px;
+    position: sticky;
+    top:0;
+    background-color: white;
+    z-index: 1;
 }
 #logoSection{
     float: left;
@@ -26,6 +30,7 @@
     font-size: 24px;
     font-weight: 600;
     margin-left: 12px;
+    text-shadow: 1px 2px 5px grey;
 }
 #addressSection{
     float: right;
@@ -34,8 +39,12 @@
     font-size: 15px;
 }
 #nav{
+    top:70px;
+    position: sticky;
     height: 50px;
     background-color: black;
+    box-shadow: 1px 1px 20px 1px whitesmoke;
+    z-index: 1;
 }
 #nav ul{
     list-style: none;
@@ -66,4 +75,110 @@
 #nav ul li ul li{
     margin-left: -50px;
     line-height: 30px;
+}
+#banner{
+    height: 500px;
+    /* background-color: lightgrey; */
+}
+#bannerImg{
+    height: 500px;
+    width: 100%;
+}
+#mq{
+    height: 30px;
+    background-color: whitesmoke;
+    font-size: 19px;
+    padding: 7px;
+}
+#section{
+    height: 250px;
+    /* background-color: grey; */
+    padding: 40px;
+}
+#section h1{
+    font-size: 28px;
+}
+#section p{
+    font-size: 18px;
+    text-align: justify;
+}
+#gallery{
+    height: 330px;
+    background-color: whitesmoke;
+    padding: 30px;
+}
+#box{
+    height: 300px;
+    width: 240px;
+    background-color: lightgray;
+    float: left;
+    margin: 20px;
+    box-shadow: 1px 1px 5px 1px grey;
+}
+#box:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    box-shadow: 1px 1px 10px 1px black;
+    border-radius: 10px;
+}
+#galleryImg{
+    height: 250px;
+    width: 240px;
+}
+#box h1{
+    font-size: 22px;
+    text-align: center;
+    color:white;
+    text-shadow: 1px 1px 1px black;
+}
+#about{
+    height: 350px;
+    background-color: white;
+    padding: 50px;
+}
+#leftAbout{
+    height: 300px;
+    width: 300px;
+    /* background-color: red; */
+    float: left;
+    /* border-radius: 50%; */
+    margin: 20px;
+}
+#leftAbout img{
+    height: 300px;
+    width: 300px;
+    /* border-radius: 50%; */
+}
+#about h1{
+    font-size: 28px;
+}
+#about p{
+    font-size: 18px;
+    text-align: justify;
+}
+#rightAbout{
+    float: left;
+    width: 750px;
+}
+#contact{
+    height:400px;
+    background-color: whitesmoke;
+    padding: 40px;
+}
+#contact h1{
+    font-size: 28px;
+}
+#contactDiv1{
+    height: 300px;
+    width: 220px;
+    background-color: lightgray;
+    float: left;
+    margin: 20px;
+}
+#contactDiv2{
+    height: 300px;
+    width: 280px;
+    background-color: lightgray;
+    float: left;
+    margin: 20px;
 }
