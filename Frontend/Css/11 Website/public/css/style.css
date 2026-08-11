@@ -169,11 +169,12 @@
     font-size: 28px;
 }
 #contactDiv1{
-    height: 300px;
-    width: 220px;
+    height: 250px;
+    width: 170px;
     background-color: lightgray;
     float: left;
     margin: 20px;
+    padding: 25px;
 }
 #contactDiv2{
     height: 300px;
@@ -181,4 +182,17 @@
     background-color: lightgray;
     float: left;
     margin: 20px;
+}
+iframe{
+    height: 300px;
+    width: 280px;
+}
+#contactDiv1 ul li a{
+    text-decoration: none;
+    line-height: 30px;
+    color:black;
+}
+#footer{
+    font-size: 20px;
+    padding: 20px;
 }
