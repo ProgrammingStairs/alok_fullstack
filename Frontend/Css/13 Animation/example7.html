@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 60px;
+            width: 300px;
+            margin: 20px;
+        }
+        #demo1{
+            animation-name: animate1;
+            background-color: red;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+        }
+        @keyframes animate1 {
+            0%{width: 300px;}  
+            100%{width: 800px;}
+        }
+        #demo2{
+            animation-name: animate2;
+            background-color: red;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+        }
+        @keyframes animate2 {
+            0%{width: 300px;}  
+            100%{width: 800px;}
+        }
+        #demo3{
+            animation-name: animate3;
+            background-color: red;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-out;
+        }
+        @keyframes animate3 {
+            0%{width: 300px;}  
+            100%{width: 800px;}
+        }
+        #demo4{
+            animation-name: animate4;
+            background-color: red;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes animate4 {
+            0%{width: 300px;}  
+            100%{width: 800px;}
+        }
+
+</style>
+</head>
+<body>
+    <div id="demo1">animation-timing-function: ease;</div>
+    <div id="demo2">animation-timing-function: ease-in;</div>
+    <div id="demo3">animation-timing-function: ease-out;</div>
+    <div id="demo4">animation-timing-function: ease-in-out;</div>
+
+</body>
+</html>

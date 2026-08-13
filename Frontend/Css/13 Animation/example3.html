@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: red;
+            animation-name: animate;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animate {
+            from{
+                background-color: green;
+                height:200px;
+                width: 200px;
+            }   
+            to{
+                background-color: pink;
+                 height:210px;
+                width: 210px;
+                box-shadow: 1px 1px 30px 1px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
