@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer{
+            width: 100%;
+            background-color: lightslategray;
+            font-size: 22px;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        @media screen and (max-width:800px){
+            #outer{
+                justify-content: center;
+            }
+            a{
+                margin-left: 20px;
+            }
+        }
+        @media screen and (max-width:550px){
+            #outer{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+        <a href="">Services</a>
+        <a href="">FAQ</a>
+        <a href="">Login</a>
+    </div>
+</body>
+</html>
