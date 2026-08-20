@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../bt/js/jquery-3.7.1.js"></script>
+    <script src="../bt/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../bt/css/bootstrap.min.css">
+    <style>
+        .demo{
+            margin: auto;
+            width: 75%;
+            border-style: solid;
+            padding: 20px;
+            height: auto;
+        }
+        input,select{
+            margin: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo">
+        <center><h2>Registration Form</h2></center>
+        <form action="" class="form-group">
+            <input class="form-control" type="text" placeholder="Enter Username" name="username" id="username">
+
+            <input class="form-control" type="email" placeholder="Enter Email" name="email" id="email">
+            
+            <input class="form-control" type="password" placeholder="Enter Password" name="password" id="password">
+
+            <input class="form-control" type="text" placeholder="Enter 10-digit Contact Number" name="contact" id="contact">
+
+            <input class="radio-inline" type="radio" name="gender" id="male" value="male">Male
+            <input class="radio-inline" type="radio" name="gender" id="female" value="female">Female
+            
+            <select class="form-control" name="subject" id="subject">
+                <option value="">Select Subject</option>
+                <option value="C Language">C Language</option>
+                <option value="C Language">C++ Language</option>
+                <option value="C Language">Java Language</option>
+                <option value="C Language">.Net Language</option>
+                <option value="C Language">Python Language</option>
+            </select>
+       
+            <input class="btn btn-block btn-success" type="submit" value="Register">
+            <input class="btn btn-block btn-danger" type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+</html>
