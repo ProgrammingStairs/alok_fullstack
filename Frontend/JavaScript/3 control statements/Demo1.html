@@ -1,0 +1,15 @@
+<script>
+    // example to find out simple interest 
+    var p = 1000;
+    var r = 2.34;
+    var t = 3;
+    var si = (p*r*t)/100;
+    document.write("Simple interest : "+si);
+
+    // example to find out compound interest 
+    var amt = p * Math.pow(1+r/100,t);
+    document.write("<br>Amount : "+amt);
+    var ci = amt - p;
+    document.write("<br>Compound interest : "+ci);
+    
+</script>
