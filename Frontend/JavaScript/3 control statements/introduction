@@ -34,3 +34,34 @@ b. Conditional control statement
         iii. nested if else statement 
         iv. else if ladder 
 
+c. Switch control statement 
+   -- It works on the concept of cases 
+   -- It is mainly used for menu based programming 
+   -- In javascript duplicate cases are allowed
+   -- Here switch can consists of variable, constant and expression
+   -- syntax :
+        switch(variable | consstant | expression){
+            case 1 : .....
+                        break;
+            case 2 : .....
+                        break;
+            default : ....
+                        break;
+        } 
+
+d. looping control statement : 
+Looping is the process of performing same task or some task in an iterative or repetative manner untill certain condition is satisfied.
+There are two types of loops : 
+        a. Entry control loop
+        b. Exit control loop 
+
+a. Entry control loop : Here condition is checked at the time of entry 
+for loop and while loop comes under this category 
+
+b. Exit control loop : Here condition is checked at the time of Exit
+do while loop comes under this category 
+
+also in javascript we some some more loops : 
+        i. for in loop
+        ii. for of loop 
+        iii. for each loop 

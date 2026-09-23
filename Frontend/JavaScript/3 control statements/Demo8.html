@@ -1,0 +1,24 @@
+<script>
+        // example showing the concept of switch control statement
+
+    var a = parseInt(prompt("Enter value of a : "));
+    var b = parseInt(prompt("Enter value of b : "));
+    alert("Select any one option: \n1 for addition\n2 for subtraction\n3 for multiplication\n4 for division");
+
+    var option = parseInt(prompt("Enter option"));
+    switch(option){
+        case 1 : alert("Addition : "+(a+b));
+                    break;
+        case 2 : alert("Subtraction : "+(a-b));
+                    break;
+        case 3 : alert("Multiplication : "+(a*b));
+                    break;
+        case 4 : alert("Division : "+(a/b));
+                    break;
+        case 5 : alert("Modulus : "+(a%b));
+                    break;
+        default : alert("Invalid selection");
+                    break;
+    }
+    
+</script>
