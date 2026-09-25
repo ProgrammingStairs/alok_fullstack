@@ -1,0 +1,29 @@
+<script>
+    var arr = [1,2,3,4,5];
+    document.write("Array elements are : "+arr);
+
+    // traditional loop
+    document.write("<br>Array elements are : ");
+    for(i=0;i<arr.length;i++){
+        document.write(arr[i]+" ");
+    }
+
+    // for in loop
+    document.write("<br>Array elements are : ");
+    for(var index in arr){
+        document.write(arr[index]+" ");
+    }
+
+    // for of loop
+    document.write("<br>Array elements are : ");
+    for(var value of arr){
+        document.write(value+" ");
+    }
+
+    // for each loop
+    document.write("<br>Array elements are : ");
+    arr.forEach(function(element){
+        document.write(element+" ");
+    })
+
+</script>

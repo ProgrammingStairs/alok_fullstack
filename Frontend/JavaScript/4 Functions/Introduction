@@ -1,0 +1,18 @@
+Function : 
+Function is a self contained block of statement. Every function performs some specific task.Function can be classified as : 
+    a. User-defined function 
+    b. Pre-defined function
+
+a. User-defined function : 
+    function whose definition part is defined by the programmer according to its programming needs.Ex : function addition(){...}
+
+b. Pre-defined function : 
+    function whose definition part is already defined.Pre-defined functions are also called as standard function or library function or in-built function or built-in function. Ex: pow(base,exponent) 
+
+Advantages of function : 
+    a. function reduces complexity of code 
+    b. function reduces redundancy of code 
+    c. function reduces program size 
+    d. we can create n no. of functions
+    e. a function can be called n no. of times 
+    f. function makes debugging easier

@@ -1,0 +1,14 @@
+<script>
+    // program to find out factorial of a number
+
+    var num = prompt("Enter number : ");
+    if(isNaN(num))
+        alert("Invalid Input | Please try again");
+    else{
+        fact = 1;
+        for(var i=1;i<=num;i++){
+            fact = fact * i;
+        }
+        document.write("Factorial of a number : "+fact);
+    }
+</script>
