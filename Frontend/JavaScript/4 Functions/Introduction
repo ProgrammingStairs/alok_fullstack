@@ -16,3 +16,30 @@ Advantages of function :
     d. we can create n no. of functions
     e. a function can be called n no. of times 
     f. function makes debugging easier
+
+Functions can be classified as : 
+1. No argument with No return type
+2. No argument with return type
+3. With argument and No return type
+4. With argument with return type
+
+New features of functions in javascript : 
+
+5. Variable function | anonymous function | function expression
+6. Arrow function | fat Arrow | lambda expression 
+7. Immediately invoked function expression 
+   Immediately invoked arrow function 
+
+Note : 
+
+function expression:
+function(){
+    .....
+}
+
+function definition | function declaration:
+function addition(){
+    .....
+}
+
+If we do not write return statement in function then javascript function by default returns undefined.
