@@ -1,0 +1,22 @@
+<script>
+    function Result(){
+        this.setData = function(a,b){
+            this.a = a;
+            this.b = b;
+        }
+        this.getData = function(){
+            document.write("value of a : "+this.a);
+            document.write("<br>value of b : "+this.b);
+        }
+        this.performOperation = function(){
+            document.write("<br>Addition : "+(obj.a+obj.b));
+        }
+    }
+    var a = parseInt(prompt("Enter value of a : "));
+    var b = parseInt(prompt("Enter value of b : "));
+
+    var obj = new Result();
+    obj.setData(a,b);
+    obj.getData();
+    obj.performOperation();
+</script>
