@@ -1,0 +1,31 @@
+<script>
+    function myFun(){
+        var obj1 = {
+            name : "andrew",
+            salary: 3400
+        }
+        var obj2 = {
+            name : "jack",
+            salary: 2200
+        }
+        var obj3 = {
+            name : "Jacob",
+            salary: 7888
+        }
+        var arr = [obj1,obj2,obj3];
+
+        var table="<table border='1' cellspacing='0' cellpadding='7'><tr><th>S.No</th><th>Name</th><th>Salary</th></tr>"
+        for(var index in arr){
+            table+="<tr><td>"+(parseInt(index)+1)+"</td>";
+            for(var key in arr[index]){
+                // table += "<td>"+arr[index][key]+"</td>"
+                table += `<td>${arr[index][key]}</td>`
+            }
+            table+="</tr>";
+        }
+        table += "</table>";
+        document.getElementById('show').innerHTML=table;
+    }
+</script>
+<button onClick="myFun()">Show Data</button>
+<p id="show"></p>
