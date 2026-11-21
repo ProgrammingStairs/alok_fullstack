@@ -1,0 +1,23 @@
+<!-- spread operator -->
+ <script>
+    // without spread operator
+    var car1 = ["nano","punch","magnite","sierria"];
+    var car2 = car1;
+    document.write("<br>car1 : "+car1);
+    document.write("<br>car2 : "+car2);
+
+    car2[1] = "sonnet";
+    document.write("<br><br>car1 : "+car1);
+    document.write("<br>car2 : "+car2);
+
+        // with spread operator
+    var car1 = ["nano","punch","magnite","sierria"];
+    var car2 = [...car1];
+    document.write("<br><br>car1 : "+car1);
+    document.write("<br>car2 : "+car2);
+
+    car2[1] = "sonnet";
+    document.write("<br><br>car1 : "+car1);
+    document.write("<br>car2 : "+car2);
+
+ </script>

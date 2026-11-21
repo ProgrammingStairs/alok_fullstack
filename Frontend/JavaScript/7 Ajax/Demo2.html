@@ -1,0 +1,38 @@
+<script>
+    function myFun() {
+        var xhttp = new XMLHttpRequest();
+        METHOD = "post"
+        URL = "https://jsonplaceholder.typicode.com/posts"
+        ASYNC_STATUS = true;
+        xhttp.open(METHOD, URL, ASYNC_STATUS);
+        var data = {
+            "userId":101,
+            "id":12345,
+            "title":"This is my example",
+            "body":"This is an example showing the concept of ajax",
+        }
+        xhttp.setRequestHeader("Content-Type","application/json");
+        xhttp.send(JSON.stringify(data));
+
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 0 && xhttp.status == 201) {
+                console.log("ReadyState : ", xhttp.readyState, " status : ", xhttp.status);
+            }
+            if (xhttp.readyState == 1 && xhttp.status == 201) {
+                console.log("ReadyState : ", xhttp.readyState, " status : ", xhttp.status);
+            }
+            if (xhttp.readyState == 2 && xhttp.status == 201) {
+                console.log("ReadyState : ", xhttp.readyState, " status : ", xhttp.status);
+            }
+            if (xhttp.readyState == 3 && xhttp.status == 201) {
+                console.log("ReadyState : ", xhttp.readyState, " status : ", xhttp.status);
+            }
+            if (xhttp.readyState == 4 && xhttp.status == 201) {
+                console.log("ReadyState : ", xhttp.readyState, " status : ", xhttp.status);
+                document.getElementById('show').innerHTML = xhttp.responseText;
+            }
+        }
+    }
+</script>
+<button onClick="myFun()">Show Data</button>
+<p id="show"></p>

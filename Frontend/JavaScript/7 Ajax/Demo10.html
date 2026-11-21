@@ -1,0 +1,25 @@
+<script>
+
+    function myFun(){
+        var obj = {
+            fname : "Peter",
+            lname : "Parker",
+            address : {
+                state : "Madhya Pradesh",
+                country : "India"
+            },
+            age : 56
+        }
+        return obj;
+    }
+
+    const {fname,lname,address,age} = myFun();
+
+    document.write("<br>First name : "+fname);
+    document.write("<br>Last name : "+lname);
+    document.write("<br>Address : "+address);
+    document.write("<br>State : "+address.state);
+    document.write("<br>Country : "+address.country);
+    document.write("<br>Age : "+age);
+
+</script>

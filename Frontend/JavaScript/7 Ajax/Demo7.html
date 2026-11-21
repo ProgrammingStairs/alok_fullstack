@@ -1,0 +1,21 @@
+<!-- object destructuring -->
+<script>
+    var obj1 = {
+        name:"Andrew",
+        email:"andrew@gmail.com",
+        age:45
+    }
+    var obj2 = {
+        address:"Indore",
+        pincode:452010,
+        state:"Madhya Pradesh"
+    }
+    var {name,pincode,email,age,state,address} = {...obj1,...obj2};
+    document.write("<br>name : "+name);
+    document.write("<br>email : "+email);
+    document.write("<br>age : "+age);
+    document.write("<br>address : "+address);
+    document.write("<br>pincode : "+pincode);
+    document.write("<br>state : "+state);
+
+</script>

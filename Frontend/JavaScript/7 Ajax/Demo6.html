@@ -1,0 +1,23 @@
+<!-- spread operator -->
+<script>
+    var obj1 = {
+        name:"Andrew",
+        email:"andrew@gmail.com",
+        age:45
+    }
+    var obj2 = {
+        address:"Indore",
+        pincode:452010,
+        state:"Madhya Pradesh"
+    }
+    var obj3 = {...obj1,...obj2};
+    document.write(obj3);
+    console.log(obj3);
+    document.write("<br>name : "+obj3.name);
+    document.write("<br>email : "+obj3.email);
+    document.write("<br>age : "+obj3.age);
+    document.write("<br>address : "+obj3.address);
+    document.write("<br>pincode : "+obj3.pincode);
+    document.write("<br>state : "+obj3.state);
+
+</script>
